@@ -69,9 +69,6 @@ typedef struct
     httpd_req_handler_t handler;
 } httpd_async_req_t;
 
-int a = 5;
-int* ptr = malloc(sizeof(int));
-
 extern const uint8_t favicon_ico_start[] asm("_binary_favicon_ico_start");
 extern const uint8_t favicon_ico_end[] asm("_binary_favicon_ico_end");
 
